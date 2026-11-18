@@ -1,0 +1,57 @@
+<!--doctype html-->
+<html>
+<head>
+<style>
+
+img{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: myAnimation;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+
+}
+
+
+@keyframes myAnimation {
+  0%   {
+        left:0px;
+        top:0px;
+        }
+  25%  {
+        left:80%;
+        top:0px;
+        transform: rotate(180deg);
+        }
+  50%  {
+        left:80%;
+        top:80vh;
+        transform: rotateY(3600deg);
+        }
+  75%  {
+        left:0px;
+        top:80vh;
+        } 
+  100%  {
+        left:0px;
+        top:0px;
+        }      
+}
+
+
+body{
+    background: url("https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/12/hollow-knight-silksong-sea-sorrow.png?w=1600&h=900&fit=crop");
+    background-size: cover;
+}
+</style>
+</head>
+<body>
+    <h1>Mr. K's Animation</h1>
+    <div></div>
+    <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/73206bd9-257c-4f50-b1f3-59a306e24084/dkf0j5u-d1d8f4c4-1995-4419-b918-da25cee70964.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi83MzIwNmJkOS0yNTdjLTRmNTAtYjFmMy01OWEzMDZlMjQwODQvZGtmMGo1dS1kMWQ4ZjRjNC0xOTk1LTQ0MTktYjkxOC1kYTI1Y2VlNzA5NjQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.kG-4qI95YaKg7qdKRtY6LXXtC6212xaQO8-SQuCyvwQ">
+
+
+</body>
+</html>
